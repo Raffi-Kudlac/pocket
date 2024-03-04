@@ -28,7 +28,6 @@ Ruby on Rails generates a lot of files for the developer. Below I have highlight
 
 - [Services](https://github.com/Raffi-Kudlac/pocket/tree/main/app/services). Where my main two services live
 
-
 - [Dicom File DB Model](https://github.com/Raffi-Kudlac/pocket/blob/main/app/models/dicom_file.rb)
 
 - [Tag DB Model](https://github.com/Raffi-Kudlac/pocket/blob/main/app/models/tag.rb)
@@ -37,3 +36,5 @@ Ruby on Rails generates a lot of files for the developer. Below I have highlight
 
 - [API Entry Point](https://github.com/Raffi-Kudlac/pocket/blob/main/app/controllers/api/v1/main_controller.rb)
 
+# Testing
+I ran the API against a couple of dicom test files that you provided and the PNG files were generated. I could also see the Tag values be populated in the database. Given more time I would have liked to create some automated tests as well
